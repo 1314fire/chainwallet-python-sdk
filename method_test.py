@@ -54,7 +54,7 @@ def test_getMerchantCollectBalance():
 
 # 获取用户余额
 def test_getUserBalance():
-    res = client.getUserBalance("20202112233", "1", '104725')
+    res = client.getUserBalance("20202112233", '104725')
     print(res)
 
 # 获取提币订单详情

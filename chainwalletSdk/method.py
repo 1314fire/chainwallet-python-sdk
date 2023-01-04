@@ -79,10 +79,9 @@ class WalletClient():
         })
         return res
 
-    def getUserBalance(self, app_id, merchant_id, uid):
+    def getUserBalance(self, app_id, uid):
         res = self.doPost("/getUserBalance", {
             "app_id": app_id,
-            "merchant_id": merchant_id,
             "uid": uid
         })
         return res
